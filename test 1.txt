@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Dictionary</title>
+  <script type="text/javascript" src="main.js"></script>
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    hr{
+        height: 5px;
+        background-color: white;
+        border: none;
+    }
+    
+</style>
+</head>
+<body style="text-align: center;">
+  <div id="formDiv">
+        <form id="carForm">
+
+
+
+            <hr>
+            <h1 style="text-align: left;">💡WORD OF THE DAY</h1>
+            <hr>
+          <br>
+          <br>
+          <br>
+            <label for="carWord" class="car" >Synonym  </label>
+            <input type="text" class="car" id="carWord" placeholder="word" required autofocus><br>
+            <label for="carMeans" >Meaning  </label>
+            
+            <input type="text" id="carMeans" class="car" placeholder="meaning" required><br>
+            <label for="key" class="car" >Key  </label>
+            <input type="text" id="key" placeholder="Key" class="car" required><br>
+            <button type="submit" class="but">Store Records</button>
+
+        </form>
+        <br>
+
+        <label for="retrieveKey" class="car" >Enter Key to retrieve item</label>
+        <input type="text" id="retrieveKey" class="car" placeholder="retrieveKey" required>
+        
+        <br>
+        <button id="retrieveButton" class="but">Retrieve records</button>
+        <br>
+        <div id="retrieve"></div>
+        <br>
+        <label for="removeKey" class="car" >Enter Key to delete item</label>
+        <input type="text" id="removeKey" class="car" placeholder="removeKey" required><br>
+        <button id="removeButton" class="but">Remove record</button>
+        <br>
+        <button id="clearButton" class="but">Clear all records</button>
+  </div>
+</body>
+</html>

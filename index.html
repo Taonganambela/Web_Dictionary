@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Font Awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        />
+        <!-- Google Fonts -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="style.css" />
+        <title>Dictionary</title>
+        <style>
+            hr{
+                height: 5px;
+                background-color: white;
+                border: none;
+            }
+        </style>
+    </head>
+    <body onload=" alert('Welcome to my Dictionary!')">
+        <hr>
+        <h1>📚 MY DICTIONARY</h1>
+        <h5>Expand your vocabulary daily</h5>
+        <hr>
+        <br>
+        <!-- word of the day -->
+        <audio id="sound"></audio>
+        </div>
+         <!-- search situation -->
+        <div class="container">
+            <div class="search-box">
+                <input
+                    type="text"
+                    placeholder="Type your word here.."
+                    id="inp-word"
+                />
+                <button id="search-btn">Search</button>
+            </div>
+            <div class="result" id="result"></div>
+        </div>
+        <br>
+        <div style="text-align: center; background-color: black; color: white; padding: 0px; bottom: 0px; position: fixed; width: 100%;">
+            <footer>
+                    <div >
+                        <h1 id="day">  
+                            <a href="LOCALs.html "> Word of the day </a>
+                        </h1>
+                    </div>
+                <P>     <br>  </P>
+                
+                <p>  MY DICTIONARY <br>
+                    Expand your vocabulary daily <br>
+                    © 2022 @mydictionary.com <br>
+                </p>
+            </footer>
+        </div>
+        <!-- Script -->
+        <script src="script.js"></script>
+    </body>
+</html>
