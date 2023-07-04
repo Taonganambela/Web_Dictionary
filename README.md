@@ -6,3 +6,4 @@ It is also known as an associative array, map, or hash table in different progra
 
 
 Local storage provides a simple key-value storage system, similar to a dictionary. It allows you to store data as strings and retrieve it later using the associated keys. The data stored in local storage remains available to the web application even after page refreshes or when the user navigates away and returns to the website.
+   
