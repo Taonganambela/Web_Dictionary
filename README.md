@@ -1,3 +1,4 @@
+
 # Web_Dictionary
 
 A dictionary, in the context of computer programming, refers to a data structure that stores a collection of key-value pairs. 
